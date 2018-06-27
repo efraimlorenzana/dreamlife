@@ -1,0 +1,30 @@
+@media only screen and (min-width: 961px){
+/*
+ *
+ * Header
+ *
+ */
+
+ header#mainHeader {
+ 	width: 100vw;
+ }
+ header#mainHeader > div {
+ 	width: 100%;
+    background-color: black;
+    position: relative;
+
+ }
+ header#mainHeader > div#floatingMessage {
+ 	background-color: #0000005e;
+    color: white;
+    width: 55%;
+    padding: 64px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+ }
+ header#mainHeader > div > img {
+ 	height: 70vh;
+ }
+}
