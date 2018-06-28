@@ -15,7 +15,8 @@
  *
  */
  body {
-
+ 	font-family: 'Montserrat', sans-serif;
+ 	background-color: #efe4e4;
  }
 
 /*
@@ -27,11 +28,57 @@
  	position: relative;
  }
  header#mainHeader > div > img {
- 	border: 3px solid black;
+ 	/*border: 3px solid black;*/
  	width: 100%;
  }
  div#carouselExampleIndicators {
  	width: 100%;
+ }
+ header#mainHeader > div#floatingMessage {
+ 	background-color: #efe7e730;
+ 	color: white;
+ 	position: absolute;
+ 	font-family: 'Lobster', cursive;
+ }
+ header#mainHeader > a {
+ 	position: absolute;
+ 	border-radius: 5px;
+ 	font-family: 'Abel', sans-serif;
+ 	text-decoration: none;
+ 	color: #efecec;
+ }
+
+ /* ---------- Home Page ---------- */
+ header#home > nav {
+
+ }
+ header#home > nav > a {
+ 	font-family: 'Shrikhand', cursive;
+ 	line-height: 60px;
+    padding-right: 40px;
+    color:yellow;
+ }
+ header#home > nav > div > ul > li > a {
+ 	color: yellow;
+ }
+ header#home > div > img {
+ 	width: 100%;
+ }
+
+/*
+ *
+ * Content
+ *
+ */
+
+ main.container > div > div > h2 {
+ 	margin-top: 10px;
+ 	letter-spacing: 3px;
+ 	text-align: center;
+ }
+
+ main.container > div > div > p {
+ 	text-align: justify;
  }
 
 /*
@@ -39,3 +86,12 @@
  * Custom Classes
  *
  */
+ .bg-light-transparent {
+    background-color: #0e0a0b42!important;
+}
+
+ /* ---------- Override Bootstrap ----------*/
+.nav-link.active {
+    color: #0c0c0c!important;
+    background-color: #ffeb3bd4!important;
+}

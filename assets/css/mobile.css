@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px){
+/*
+ *
+ * Header
+ *
+ */
+ header#mainHeader > div#floatingMessage {
+ 	width: 100%;
+ 	padding: 5px 15px 0;
+ 	top: 5%;
+ 	right: 0;
+ 	border-radius: 3px;
+ 	line-height: 25px;
+ 	font-size: 20px;
+ 	letter-spacing: 3px;
+ 	text-align: center;
+ }
+ header#mainHeader > a {
+ 	padding: 5px 15px;
+ 	font-size: 20px;
+ 	top: 65%;
+ 	left: 50%;
+ 	transform: translate(-50%,0);
+ }
+
+/*
+ *
+ * Content
+ *
+ */
+ main.container > div > div > h2 {
+ 	margin-top: 5px;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ }
+
+} /* End of Mobile View */
