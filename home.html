@@ -27,9 +27,9 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/tablet.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/mobile.css">
 </head>
-<body>
+<body class="bg">
 
-	<header id="home">
+	<header id="home" class="clear">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light-transparent fixed-top">
 			<a class="navbar-brand" href="#">
 				<i class="fas fa-home fa-2x"></i>
@@ -43,8 +43,15 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Home</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Projects</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">The Silk Residences</a>
+							<a class="dropdown-item" href="#">The Olive Place</a>
+							<a class="dropdown-item" href="#">The Ivywall Hotel</a>
+							<!-- <div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Separated link</a> -->
+						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">About Us</a>
@@ -59,6 +66,57 @@
 			<img src="./assets/img/home/home.png" alt="Home" class="img-fluid" cite="https://www.shutterstock.com/image-photo/man-touchscreen-sign-house-network-icon-251447458">
 		</div>
 	</header><!-- /#home -->
+
+	<main class="container-fluid">
+		<div class="row">
+			<h1 class="col-lg-12">Projects</h1>
+
+			<section class="col-lg-4">
+				<a href="#">
+					<div class="main-image">
+						<img src="./assets/img/home/residential/silk.png" cite="http://www.dataland.ph/silk-residences">
+					</div>
+				</a>
+				<div>
+					<h2>Silk Residences</h2>
+					<p>
+						Nestled in the heart of Sta. Mesa is THE SILK RESIDENCES – a two-tower 40-storey master-planned condominium where quality and comfort meet practical design and value. With units equipped with deliverables beyond the basics and thoughtful amenities outfitted for your ideal urban lifestyle, THE SILK RESIDENCES shall unravel a metamorphosis of condo dwelling in the Metro 
+					</p>
+				</div>
+			</section><!-- /#residential -->
+
+			<section class="col-lg-4">
+				<a href="#">
+					<div class="main-image">
+						<img src="./assets/img/home/residential/olive.png" cite="http://www.dataland.ph/olive-place">
+					</div>
+				</a>
+				<div>
+					<h2>The Olive Place</h2>
+					<p>
+						Located at 407 Shaw Boulevard, Brgy. Addition Hills, The Olive Place is a mixed-use development that will prove to be an exciting addition to the vibrant metro skyline, bringing to the table modern designs and key innovations that are sure to further enhance one's city living experience.
+					</p>
+					<p>
+						The Olive Place is where you can make important life choices for you and your family. This is the perfect place to start a new haven, the dream home for your growing family. 
+					</p>
+				</div>
+			</section><!-- /#condominium -->
+
+			<section class="col-lg-4">
+				<a href="#">
+					<div class="main-image">
+						<img src="./assets/img/home/residential/ivywall.png" cite="http://www.dataland.ph/ivy-wall-hotel">
+					</div>
+				</a>
+				<div>
+					<h2>The Ivywall Hotel</h2>
+					<p>
+						Located in the heart of uptown Puerto Princesa, Best Western Plus The Ivywall Hotel is a modern midscale hotel that provides the perfect base for both business and leisure travelers. Combined with Best Western’s world-famous services standards, Best Western Plus The Ivywall Hotel is the ideal choice for your next trip to Puerto Princesa. 
+					</p>
+				</div>
+			</section><!-- /#rent -->
+		</div><!-- row 1 -->
+	</main><!-- /.container -->
 
 	<!-- Imports Bootstrap Scripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

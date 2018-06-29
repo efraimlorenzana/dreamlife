@@ -23,6 +23,11 @@
  	transform: translate(-50%,0);
  }
 
+ /* ---------- Home Page ----------*/
+ header#home > div > img {
+ 	height: 246px;
+ }
+
 /*
  *
  * Content

@@ -19,6 +19,15 @@
  	background-color: #efe4e4;
  }
 
+ /* ---------- Home Page ----------*/
+ main.container-fluid {
+ 	background-color: #d4ea0499;
+ 	min-height: 100vh;
+ 	/*margin:0 10px;*/
+ }
+ section {
+ }
+
 /*
  *
  * Header
@@ -49,8 +58,8 @@
  }
 
  /* ---------- Home Page ---------- */
- header#home > nav {
-
+ header#home {
+ 	position: relative;
  }
  header#home > nav > a {
  	font-family: 'Shrikhand', cursive;
@@ -58,12 +67,21 @@
     padding-right: 40px;
     color:yellow;
  }
+ header#home > nav > div#navbarText > ul > li > div {
+ 	background-color: #000000a3;
+ }
+ header#home > nav > div#navbarText > ul > li > div > a {
+ 	color:white;
+ }
+
  header#home > nav > div > ul > li > a {
  	color: yellow;
  }
  header#home > div > img {
  	width: 100%;
  }
+
+
 
 /*
  *
@@ -81,11 +99,51 @@
  	text-align: justify;
  }
 
+ /* ---------- Home Page ---------- */
+ 
+ main.container-fluid > div > h1 {
+ 	text-align: center;
+ 	margin-top: 15px;
+ 	text-transform: uppercase;
+ 	letter-spacing: 3px;
+ }
+ main.container-fluid > div > section {
+ 	padding: 0;
+ }
+ main.container-fluid > div > section > a:hover {
+ 	background-color: red;
+ }
+ main.container-fluid > div > section > a > div.main-image {
+ 	width: 100%;
+ 	margin-top: 10px;
+ }
+ main.container-fluid > div > section > a > div.main-image > img {
+ 	width: 100%;
+ }
+ main.container-fluid > div > section > div:last-child {
+ 	padding: 15px;
+ }
+ main.container-fluid > div > section > div > h2 {
+ 	text-align: center;
+ }
+ main.container-fluid > div > section > div > p {
+ 	text-align: justify;
+ }
+
 /*
  *
  * Custom Classes
  *
  */
+ .clear:after {
+ 	content: "";
+ 	display: block;
+ 	clear:both;
+ }
+ .bg {
+ 	background-image: url("../img/bg.jpg");
+ 	background-size: cover;
+ }
  .bg-light-transparent {
     background-color: #0e0a0b42!important;
 }
@@ -94,4 +152,9 @@
 .nav-link.active {
     color: #0c0c0c!important;
     background-color: #ffeb3bd4!important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: black!important;
+    text-decoration: none;
+    background-color: #f8f9fa;
 }

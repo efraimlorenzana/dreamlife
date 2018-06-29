@@ -34,4 +34,15 @@
  	left: 50%;
  	transform: translate(-50%,0);
  }
+
+/*
+ *
+ * Content
+ *
+ */
+ main.container-fluid > div > section > a > div.main-image > img {
+    height: 600px;
+}
+ /* ---------- Home Page ---------- */
+ 
 } /* End of Desktop View*/
