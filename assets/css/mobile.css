@@ -39,4 +39,35 @@
  	text-align: center;
  }
 
+ section#findus > div > div > div > iframe {
+    padding: 25px 0;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+ section#contact > div > div.contact {
+ 	padding-left: 0;
+    padding-right: 0;
+ }
+ section#contact > div > div.follow > ul > li {
+ 	display: inline-block;
+ 	margin: 2px;
+ 	padding: 3px;
+ 	border-radius: 50%;
+ 	border: 2px solid white;
+ 	width: 50px;
+ }
+
+ div.footer-container > p {
+    font-size: smaller;
+}
+
+/* ---------- Classes ---------- */
+.bm {
+	margin-bottom: 15px;
+}
+
 } /* End of Mobile View */

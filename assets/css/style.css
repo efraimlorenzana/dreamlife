@@ -21,9 +21,13 @@
 
  /* ---------- Home Page ----------*/
  main.container-fluid {
- 	background-color: #d4ea0499;
+ 	background-color: #ebeaf399;
  	min-height: 50vh;
- 	/*margin:0 10px;*/
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Shrikhand', sans-serif;
+    letter-spacing: 3px;
  }
  
 /*
@@ -87,13 +91,13 @@
  *
  */
 
- main.container > div > div > h2 {
+ main.container-fluid > div > div > h2 {
  	margin-top: 10px;
  	letter-spacing: 3px;
  	text-align: center;
  }
 
- main.container > div > div > p {
+ main.container-fluid > div > div > p {
  	text-align: justify;
  }
 
@@ -114,6 +118,7 @@
  }
  main.container-fluid > div > section:hover {
  	transform: scale(1.03) translate(0,2.5%);
+    z-index: 4;
  }
  main.container-fluid > div > section > a > div.main-image {
  	width: 100%;
@@ -145,6 +150,30 @@
  	text-transform: uppercase;
  	letter-spacing: 4px;
  }
+ section#findus {
+    background-color: gray;
+    margin:0;
+    padding-top: 25px;
+    color: white;
+ }
+ section#findus > div > div > div {
+    padding-left: 3%;
+ }
+ section#findus > div > div > div > p {
+    text-align: justify;
+ }
+ section#findus > div > div > div > img {
+    width: 100%;
+    height: 71%;
+    border: 2px solid white;
+ }
+ section#findus > div > div > div > iframe {
+    padding: 25px;
+    width: 100%;
+ }
+ div#mapDiv {
+    border: 2px solid white;
+}
 
 /*
  *
@@ -218,6 +247,11 @@
  	color: white;
  	padding: 30px 25px 10px;
  	margin-bottom: 0;
+ }
+ .shadow {
+    box-shadow: 10px 10px 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
  }
 
  /* ---------- Override Bootstrap ----------*/
