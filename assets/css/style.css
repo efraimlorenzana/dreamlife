@@ -28,8 +28,8 @@
  h1, h2, h3, h4, h5, h6 {
     font-family: 'Shrikhand', sans-serif;
     letter-spacing: 3px;
- }
- 
+}
+
 /*
  *
  * Header
@@ -68,20 +68,20 @@
  	line-height: 60px;
     padding-right: 40px;
     color:yellow;
- }
- header#home > nav > div#navbarText > ul > li > div {
- 	background-color: #000000a3;
- }
- header#home > nav > div#navbarText > ul > li > div > a {
- 	color:white;
- }
+}
+header#home > nav > div#navbarText > ul > li > div {
+  background-color: #000000a3;
+}
+header#home > nav > div#navbarText > ul > li > div > a {
+  color:white;
+}
 
- header#home > nav > div > ul > li > a {
- 	color: yellow;
- }
- header#home > div > img {
- 	width: 100%;
- }
+header#home > nav > div > ul > li > a {
+  color: yellow;
+}
+header#home > div > img {
+  width: 100%;
+}
 
 
 
@@ -115,64 +115,90 @@
     margin: 0 4% 4%;
     box-shadow: 11px 12px 11px;
     transition: all 1s;
- }
- main.container-fluid > div > section:hover {
- 	transform: scale(1.03) translate(0,2.5%);
-    z-index: 4;
- }
- main.container-fluid > div > section > a > div.main-image {
- 	width: 100%;
- 	margin-top: 10px;
- }
- main.container-fluid > div > section > a > div.main-image > img {
- 	width: 100%;
- }
- main.container-fluid > div > section > div:last-child {
- 	padding: 15px;
- }
- main.container-fluid > div > section > div > h2 {
- 	text-align: center;
- }
- main.container-fluid > div > section > div > p {
- 	text-align: justify;
- }
+}
+main.container-fluid > div > section:hover {
+  transform: scale(1.03) translate(0,2.5%);
+  z-index: 4;
+}
+main.container-fluid > div > section > a > div.main-image {
+  width: 100%;
+  margin-top: 10px;
+}
+main.container-fluid > div > section > a > div.main-image > img {
+  width: 100%;
+}
+main.container-fluid > div > section > div:last-child {
+  padding: 15px;
+}
+main.container-fluid > div > section > div > h2 {
+  text-align: center;
+}
+main.container-fluid > div > section > div > p {
+  text-align: justify;
+}
 
- section#events > div.row {
- 	background: #c5bebe;
-    padding: 0 15px 50px;
-    background-image: url("../img/home/bg2.jpg"); /*https://www.google.com.ph/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiN7YDruoDcAhULXbwKHTKgC5EQjRx6BAgBEAU&url=http%3A%2F%2Fblog.rossmortgage.com%2Fbuying-house-2018-start-4-things-now%2F&psig=AOvVaw1qWGOedSuN1JUGw9-DxqY2&ust=1530622317107542*/
- 	background-attachment: fixed;
- 	background-size: cover;
- }
- section#events > div.row > div > h2 {
- 	padding: 30px 0;
- 	text-align: center;
- 	text-transform: uppercase;
- 	letter-spacing: 4px;
- }
- section#findus {
+section#events > div.row {
+  background: #c5bebe;
+  padding: 0 15px 50px;
+  background-image: url("../img/home/bg2.jpg"); /*https://www.google.com.ph/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiN7YDruoDcAhULXbwKHTKgC5EQjRx6BAgBEAU&url=http%3A%2F%2Fblog.rossmortgage.com%2Fbuying-house-2018-start-4-things-now%2F&psig=AOvVaw1qWGOedSuN1JUGw9-DxqY2&ust=1530622317107542*/
+  background-attachment: fixed;
+  background-size: cover;
+}
+section#events > div.row > div > h2 {
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+section#findus {
     background-color: gray;
     margin:0;
     padding-top: 25px;
     color: white;
- }
- section#findus > div > div > div {
+}
+section#findus > div > div > div {
     padding-left: 3%;
- }
- section#findus > div > div > div > p {
+}
+section#findus > div > div > div > p {
     text-align: justify;
- }
- section#findus > div > div > div > img {
+}
+section#findus > div > div > div > img {
     width: 100%;
     height: 71%;
     border: 2px solid white;
- }
- section#findus > div > div > div > iframe {
+}
+section#findus > div > div > div > iframe {
     padding: 25px;
     width: 100%;
- }
- div#mapDiv {
+}
+div#mapDiv {
     border: 2px solid white;
+}
+
+/* ---------- Project ---------- */
+#row1 {
+    background-color: #00800036;
+}
+#row2 {
+    background-color: #ef0b4d26;
+}
+
+#row3 {
+    background-color: #1004f92b;
+}
+
+#row4 {
+    background-color: #ddde142b;
+}
+#row5 {
+    background-color: #9c27b063;
+}
+#row6 {
+    background-color: #ff572282;
+}
+
+main > div > div > ul {
+    padding: 2px 8%;
 }
 
 /*
@@ -223,7 +249,7 @@
     padding: 15px;
     min-height: 60px;
     max-height: 60px;
- }
+}
 
 /*
  *
@@ -242,19 +268,19 @@
  .bg-light-transparent {
     background-color: #0e0a0b42!important;
 }
- .footer-container {
- 	background-color: black;
- 	color: white;
- 	padding: 30px 25px 10px;
- 	margin-bottom: 0;
- }
- .shadow {
+.footer-container {
+  background-color: black;
+  color: white;
+  padding: 30px 25px 10px;
+  margin-bottom: 0;
+}
+.shadow {
     box-shadow: 10px 10px 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
- }
+}
 
- /* ---------- Override Bootstrap ----------*/
+/* ---------- Override Bootstrap ----------*/
 .nav-link.active {
     color: #0c0c0c!important;
     background-color: #ffeb3bd4!important;
@@ -266,4 +292,11 @@
 }
 .card-text {
 	text-align: justify;
+}
+
+/* ---------- Disclaimer ----------*/
+div#disclaimer > div > div.modal-content {
+    background-color: #fb0707a1;
+    color: lightgreen;
+    border: 2px solid white;
 }

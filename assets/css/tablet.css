@@ -41,6 +41,17 @@
  section#findus > div > div > div > img {
  	height: 74%;
  }
+/* ---------- Project  ---------- */
+main > div > div > h4 {
+    margin-top: 20px;
+}
+
+ main > div > div > ul {
+    padding: 5px 5%;
+}
+main > div > div > p {
+	padding: 0 3px !important;
+}
 /*
  *
  * Footer

@@ -28,6 +28,7 @@
  	height: 85px;
  }
 
+
 /*
  *
  * Content
@@ -40,8 +41,18 @@
  }
 
  section#findus > div > div > div > iframe {
-    padding: 25px 0;
-}
+ 	padding: 25px 0;
+ }
+
+ /* ---------- Project ---------- */
+ main > div > div > h4 {
+ 	margin-top: 20px;
+ }
+ main > div#row2 > div > p,
+ main > div#row3 > div > p,
+ main > div#row4 > div > p {
+ 	padding: 0 5px !important;
+ }
 
 /*
  *
@@ -50,7 +61,7 @@
  */
  section#contact > div > div.contact {
  	padding-left: 0;
-    padding-right: 0;
+ 	padding-right: 0;
  }
  section#contact > div > div.follow > ul > li {
  	display: inline-block;
@@ -62,12 +73,12 @@
  }
 
  div.footer-container > p {
-    font-size: smaller;
-}
+ 	font-size: smaller;
+ }
 
-/* ---------- Classes ---------- */
-.bm {
-	margin-bottom: 15px;
-}
+ /* ---------- Classes ---------- */
+ .bm {
+ 	margin-bottom: 15px;
+ }
 
 } /* End of Mobile View */
