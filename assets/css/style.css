@@ -83,8 +83,6 @@ header#home > div > img {
   width: 100%;
 }
 
-
-
 /*
  *
  * Content
@@ -199,6 +197,16 @@ div#mapDiv {
 
 main > div > div > ul {
     padding: 2px 8%;
+}
+
+/* ---------- About Page ---------- */
+div#founder {
+  text-align: center;
+}
+img#founder {
+  border-radius: 50%;
+  border: 5px solid black;
+  padding: 10px;
 }
 
 /*

@@ -52,6 +52,12 @@ main > div > div > h4 {
 main > div > div > p {
 	padding: 0 3px !important;
 }
+
+/* ---------- About Page ----------*/
+img#founder {
+  width: 70%;
+}
+
 /*
  *
  * Footer

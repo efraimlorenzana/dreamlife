@@ -23,6 +23,13 @@
  	transform: translate(-50%,0);
  }
 
+ body#silk > header#home > nav > a,
+ body#olive > header#home > nav > a,
+ body#ivywall > header#home > nav > a,
+ body#about > header#home > nav > a {
+    color: #ffff0005;
+}
+
  /* ---------- Home Page ----------*/
  header#home > div > img {
  	height: 85px;
