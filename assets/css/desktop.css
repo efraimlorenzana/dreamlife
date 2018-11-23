@@ -40,7 +40,7 @@ header#mainHeader > a {
  *
  */
  main.container-fluid > div > section > a > div.main-image > img {
-    height: 600px;
+    /* height: 600px; */
 }
 /* ---------- Home Page ---------- */
 
